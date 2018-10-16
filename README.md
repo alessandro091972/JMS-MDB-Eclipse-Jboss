@@ -8,7 +8,7 @@ In  wildfly_Home/standalone/configuration/standalone.xml
 Add <extension module="org.jboss.as.messaging"/>
 in the <extensions> element.
 
-Add the following <subsystem> inside <profile> element.
+Add the following subsystem inside profile element.
 <subsystem xmlns="urn:jboss:domain:messaging:1.1">
             <hornetq-server>
                 <persistence-enabled>true</persistence-enabled>
